@@ -50,7 +50,7 @@ public class TimeManager : MonoBehaviour
     {
         if (!raceStarted) return;
         
-        if (IsFinite && !IsOver)
+        /*if (IsFinite && !IsOver)
         {
             TimeRemaining -= Time.deltaTime;
             if (TimeRemaining <= 0)
@@ -58,7 +58,7 @@ public class TimeManager : MonoBehaviour
                 TimeRemaining = 0;
                 IsOver = true;
             }
-        }
+        }*/
     }
 
     public void StartRace()

@@ -174,6 +174,7 @@ public class GameFlowManager : MonoBehaviour
             winDisplayMessage.delayBeforeShowing = delayBeforeWinMessage;
             winDisplayMessage.gameObject.SetActive(true);
         }
+        /*
         else
         {
             m_SceneToLoad = loseSceneName;
@@ -182,6 +183,6 @@ public class GameFlowManager : MonoBehaviour
             // create a game message
             loseDisplayMessage.delayBeforeShowing = delayBeforeWinMessage;
             loseDisplayMessage.gameObject.SetActive(true);
-        }
+        }*/
     }
 }
